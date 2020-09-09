@@ -41,7 +41,7 @@ module BookstoreBackend
         resource(
           '*',
           headers: :any,
-          methods: [:get, :patch, :put, :delete, :post, :options]
+          methods: [:get, :delete, :post, :options]
           )
       end
     end
